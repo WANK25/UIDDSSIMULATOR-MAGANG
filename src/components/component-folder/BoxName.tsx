@@ -11,7 +11,7 @@ import { FaRegPlayCircle } from "react-icons/fa";
 
 function BoxName() {
   return (
-    <div className="flex w-[329px] h-fit items-end justify-end gap-2 text-base font-semibold">
+    <div className="flex w-[329px] h-[56px] items-end justify-end gap-2 text-base font-semibold">
       <div className="flex flex-col gap-1">
         <p>Name</p>
         <div className="h-8 w-[150px] px-[10px] py-2 font-medium text-base bg-blackDDS rounded-[10px] flex items-center justify-start">

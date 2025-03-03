@@ -19,7 +19,7 @@ function BoxSubcriptions() {
       <Search />
       <ButtonTextIcon
         icon={<AiOutlinePlusCircle className="text-white w-4 h-4" />}
-        className=" bg-greenDDS w-32"
+        className=" bg-greenDDS w-32 px-4 text-[14px] font-semibold"
         text={"Add Topic"}
       />
     </div>

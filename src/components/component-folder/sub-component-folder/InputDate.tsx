@@ -20,7 +20,7 @@ function InputTime() {
     <input
       placeholder="--:--:--"
       ref={inputRef}
-      className="h-6 w-[105px] font-medium text-[20px] min-w-0 min-h-0 text-white bg-blackDDS rounded-lg border border-white text-center p-1"
+      className="h-6 w-[105px] font-medium text-[20px] focus:outline-none  min-w-0 min-h-0 text-white bg-blackDDS rounded-lg border border-white text-center p-1"
     />
   );
 }

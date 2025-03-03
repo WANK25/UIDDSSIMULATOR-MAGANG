@@ -14,7 +14,7 @@ function Input({ icon, text, className = "" }: ButtonProps) {
     >
       <input
         type="text"
-        className={`font-medium text-base flex-1 min-w-0 `}
+        className={`font-medium text-base flex-1 min-w-0 focus:outline-none`}
         placeholder={text}
       />
       {icon}

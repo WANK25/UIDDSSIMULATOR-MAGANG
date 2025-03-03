@@ -11,7 +11,8 @@ function BoxInputDate(props: Props) {
   return (
     <div className="p-2 flex h-10 gap-2.5 w-[308px] bg-blackDDS rounded-lg justify-center items-center">
       <InputTime />
-      <div className="border border-white w-4 h-fit"></div>
+      <div className="border-t border-white w-4"></div>
+
       <InputTime />
       <Button
         icon={<FaRegTrashAlt className="text-white w-4 h-4" />}

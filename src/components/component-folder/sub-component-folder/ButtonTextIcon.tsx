@@ -9,10 +9,10 @@ interface ButtonProps {
 function ButtonTextIcon({ icon, text, className = "" }: ButtonProps) {
   return (
     <button
-      className={` h-8 border-none py-4 px-2 rounded-lg flex gap-2 items-center justify-center ${className}`}
+      className={` h-8 border-none  px-2 rounded-lg flex gap-2 items-center justify-center ${className}`}
     >
       {icon}
-      <p className="text-[14px] text-white font-semibold">{text}</p>
+      <p className=" text-white ">{text}</p>
     </button>
   );
 }

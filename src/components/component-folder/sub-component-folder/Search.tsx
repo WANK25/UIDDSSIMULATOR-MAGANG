@@ -7,7 +7,7 @@ function Search() {
       <input
         type="text"
         placeholder="Search"
-        className="text-white text-base flex-1"
+        className="text-white text-base flex-1 focus:outline-none"
       />
     </div>
   );
